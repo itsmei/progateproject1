@@ -1,4 +1,32 @@
 @media (max-width: 1000px) {
+
+  /*header*/
+  .header-left a {
+      line-height: 65px;
+      padding: 0 15px;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+  }
+
+  .header-right a {
+      line-height: 65px;
+      padding: 0 15px;
+      display: block;
+      float: left;
+      transition: all 0.5s;
+      }
+
+  .header-right {
+    display:none;
+  }
+          
+  .menu-icon {
+    display: block;
+  }
+
+
+  /*bagian atas*/
   .login {
     width: 100%;
     text-align: center;
@@ -28,31 +56,40 @@
     padding-bottom: 20px;
   }
 
-  .isi_ulasan-icon img {
-    height: 280px;
-    width: 280px;
+  /*Bagian ulasan*/
+  .ulasan-wrapper {
+  height: 910px;
+  background-color: #fff8ec;
+  padding-bottom: 80px;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
   }
 
-  .ulasan {
-    margin-left: auto;
+  .ulasan-item {
+  float: left;
+  width: 50%;
+  text-align: center;
   }
-  .ulasan img {
-    width: 50%;
-    align-items: center;
+
+  .ulasan-item img {
+  width : 300px;
+  height: 300px;
   }
 }
+  
+@media (max-width: 670px) {
+/*header*/
 
-/* Add CSS for header-right */
 .header-right {
   display: none;
 }
 
-/* Add CSS for menu-icon */
 .menu-icon {
   display: block;
 }
-  
-@media (max-width: 670px) {
+
+/*bagian atas*/
   .login {
     width: 100%;
     text-align: center;
@@ -88,21 +125,22 @@
     float: none; 
   }
 
-  .ulasan {
-    margin-left: auto;
+  /*Bagian ulasan*/
+  .ulasan-wrapper {
+      height: 1700px;
+      background-color: #fff8ec;
+      padding-bottom: 80px;
+      margin-bottom: 50px;
   }
-  .ulasan img {
-    width: 100%;
-    align-items: center;
+    
+  .ulasan-item {
+      float: none;
+      width: 100%;
+      text-align: center;
   }
-}
-
-/* Add CSS for header-right */
-.header-right {
-  display: none;
-}
-
-/* Add CSS for menu-icon */
-.menu-icon {
-  display: block;
+    
+  .ulasan-item img {
+      width : 280px;
+      height: 280px;
+  }
 }
