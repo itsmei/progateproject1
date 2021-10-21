@@ -27,6 +27,10 @@
 
 
   /*bagian atas*/
+   .top-wrapper {
+    background-size: cover;
+  }
+  
   .login {
     width: 100%;
     text-align: center;
