@@ -41,6 +41,16 @@
     align-items: center;
   }
 }
+
+/* Add CSS for header-right */
+.header-right {
+  display: none;
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  display: block;
+}
   
 @media (max-width: 670px) {
   .login {
@@ -85,4 +95,14 @@
     width: 100%;
     align-items: center;
   }
+}
+
+/* Add CSS for header-right */
+.header-right {
+  display: none;
+}
+
+/* Add CSS for menu-icon */
+.menu-icon {
+  display: block;
 }
